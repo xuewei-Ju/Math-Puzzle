@@ -2,7 +2,7 @@ memo = {0x000fff => 0, 0xfff000 => 0, 0xcccccc => 0, 0x333333 => 0}
 queue = [0x000fff, 0x333333] # 初期値を左上が0のもののみに絞る
 W, H = 4, 6
 
-# yer yer yer
+# what the ? yer yer yer
 
 mask = []
 (W * H).times{|i|
