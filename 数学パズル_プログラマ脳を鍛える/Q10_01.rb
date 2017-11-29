@@ -22,14 +22,18 @@ def sum_max(roulette, n)
 		
 		ans = [ans, tmp].max
 	}
-
+	
+	# ‚±‚±‚Íans‚Í–¢éŒ¾‚Ìê‡‚ª‚ ‚é‚Ì‚ÅA‰ü‚ß‚ÄéŒ¾‚µ‚Ä‚¨‚­
 	ans
 end
 
 
 cnt = 0
+
 (2..36).each{|i|
 	cnt += 1 if sum_max(european, i) < sum_max(american, i)
 }
 
 puts cnt
+
+# inject(:+)‚Ísum + x‚ÌˆÓ–¡
