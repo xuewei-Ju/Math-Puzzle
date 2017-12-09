@@ -1,7 +1,7 @@
 # ’jq‚Æ—q‚ğ•¶š‚Åİ’è
 @boy, @girl = "B", "G"
 
-N = 3
+N = 30
 
 def add(seq)
 	
